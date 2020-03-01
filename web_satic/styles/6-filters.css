@@ -50,7 +50,7 @@
 
 .locations:hover .popover {display: block;}
 
-.amenities:hover .popover {display: block;}
+.filters .amenities:hover .popover {display: block;}
 
 .popover h2{
     font-size: 16px;
@@ -62,19 +62,23 @@
     margin-left: 5%;
 }
 
-.amenities{
+.filters .amenities{
     height: 100%;
     width: 25%;
     float: left;
 }
 
-h3{
+.filters .amenities ul{
+    padding-top: 10%;
+}
+
+.filters h3{
     font-weight: 600;
     margin-left: 15%;
     margin-bottom: 2%;
 }
 
-h4{
+.filters h4{
     margin: auto;
     font-weight: 400;
     font-size: 14px;
